@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { themes } from './data/content.js'
-import { ProgressBar, ParticleBg, Cursor } from './components/Effects.jsx'
+import { ProgressBar, Aurora, Cursor } from './components/Effects.jsx'
 import { Navbar, Hero, Marquee, About, Skills, Experience, Projects, Education, Contact, Footer } from './components/Sections.jsx'
 
 export default function App() {
@@ -17,7 +17,7 @@ export default function App() {
   return (
     <>
       <ProgressBar />
-      <ParticleBg />
+      <Aurora />
       <Cursor />
       <Navbar theme={theme} setTheme={setTheme} />
       <main>
